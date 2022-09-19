@@ -220,6 +220,58 @@ p {
     width: 18rem;
 }
 
+/* ! CSS Sezione Testimonials */
+.title-testimonial {
+    padding: 2rem;
+}
+
+.title-testimonial h2 {
+    color: var(--purple);
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.title-testimonial p {
+    text-align: center;
+}
+
+.card-testimonial {
+    background-color: var(--purple);
+    padding: 2.5rem 0.8rem;
+    margin-top: 1.5rem;
+    border-radius: 2rem;
+}
+
+.description-tesimonial {
+    color: var(--white);
+    padding: 0 3rem;
+}
+
+.description-tesimonial h4 {
+    padding-top: 1.5rem;
+    text-transform:uppercase;
+}
+
+#img-testimonial-1 {
+    background-image: url("../img/testimonial1.jpg");
+}
+
+#img-testimonial-2 {
+    background-image: url("../img/testimonial2.jpg");
+}
+
+#img-testimonial-3 {
+    background-image: url("../img/testimonial3.jpg");
+}
+
+.img-test {
+    background-repeat: no-repeat;
+    padding: 4.5rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
 /* ! Footer */
 footer {
     background-color: var(--dark-gray);
