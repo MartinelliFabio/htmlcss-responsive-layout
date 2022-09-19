@@ -221,6 +221,10 @@ p {
 }
 
 /* ! CSS Sezione Testimonials */
+#testimonials {
+    padding-bottom: 6rem;
+}
+
 .title-testimonial {
     padding: 2rem;
 }
@@ -271,6 +275,15 @@ p {
     background-size: cover;
     background-position: center;
 }
+
+/* ! CSS Sezione Features */
+#features h2 {
+    color: var(--white);
+    text-align: center;
+    font-size: 2rem;
+    padding: 2rem 0;
+}
+
 
 /* ! Footer */
 footer {
