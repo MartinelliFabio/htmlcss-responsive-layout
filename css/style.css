@@ -46,6 +46,10 @@ body {
     align-items: center;
 }
 
+.flex-column {
+    flex-flow: column;
+}
+
 img {
     width: 100%;
 }
@@ -59,7 +63,7 @@ header {
     background-color: var(--blue);
     color: var(--white);
     padding: 1rem 2rem;
-    margin-bottom: 50px;
+    margin-bottom: 2.5rem;
     position: sticky;
     top: 0;
 }
@@ -91,6 +95,7 @@ header {
 
 #intro {
     padding: 0 2rem;
+    margin-bottom: 4.5rem;
 }
 
 #intro h3 {
@@ -109,8 +114,8 @@ p {
 
 .description-demo {
     padding: 1.5rem;
-    padding-bottom: 3rem;
-    width: 58%;
+    padding-top: 2.5rem;
+    width: 60%;
 }
 
 .description-demo h3 {
@@ -119,9 +124,10 @@ p {
 
 .btn-store {
     background-color: var(--blue);
-    padding: 0.5rem 3rem;
-    border-radius: 1rem;
+    padding: 0.5rem 4rem;
+    border-radius: 1.2rem;
     color: var(--white);
+    letter-spacing: 0.2rem;
 }
 
 .fa-apple {
@@ -134,8 +140,21 @@ p {
 
 .phone {
     width: 15rem;
-    padding-top: 3.5rem;
-    padding-left: 2.5rem;
+    padding-top: 4rem;
+}
+
+.icons {
+    color: var(--blue);
+    font-size: 5rem;
+}
+
+.code {
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.code h3 {
+    padding: 1.5rem 0;
 }
 
 /* ! Footer */
