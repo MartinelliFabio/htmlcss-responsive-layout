@@ -44,8 +44,16 @@ body {
     justify-content: space-between;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 .align-center {
     align-items: center;
+}
+
+.align-start {
+    align-items: flex-start;
 }
 
 .flex-column {
@@ -97,6 +105,23 @@ header {
 }
 
 /* ! Main */
+#intro .cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+#intro .card {
+    margin-left: 0.75rem;
+    margin-right: 0.75rem;
+    width: calc(33.33% - 1.5rem);
+}
+
+#intro .card:first-child {
+    width: calc(66.66% - 1.5rem);
+}
+
 #planning, #features, #get-started {
     background-color: var(--purple);
 }
@@ -337,7 +362,6 @@ p {
 
 .card-about {
     padding: 4rem 0;
-    align-content: flex-end;
     padding-right: 2rem;
     width: 50%;
 }
@@ -382,9 +406,11 @@ p {
 
 .btn-linkedin {
     display: block;
+    width: 50%;
+    text-align: center;
     background-color: var(--purple);
     color: var(--white);
-    padding: 0.5rem 0.7rem;
+    padding: 0.4rem 0.6rem;
     border-radius: 2rem;
     margin-right: 1.5rem;
     font-size: 0.8rem;
@@ -468,48 +494,7 @@ footer {
 }
 
 /* ! RESPONSIVE */
-@media screen and (max-width: 480px) {
-    .main-menu {
-        display: none;
-    }
-
-    .hamburger {
-        display: block;
-        font-size: 1.5rem;
-    }
-}
-
 @media screen and (min-width: 768px) {
-    .container {
-        max-width: 750px;
-    }
 
-    #intro .cards {
-        display: flex;
-        flex-flow: row wrap;
-        margin-left: -0.75rem;
-        margin-right: -0.75rem;
-    }
-
-    #intro .card {
-        margin-left: 0.75rem;
-        margin-right: 0.75rem;
-        width: calc(33.33% - 1.5rem);
-    }
-
-    #intro .card:first-child {
-        width: calc(66.66% - 1.5rem);
-    }
+    
 }
-
-@media screen and (min-width: 992px) {
-    .container {
-        max-width: 950px;
-    }
-} 
-
-@media screen and (min-width: 1200px) {
-    .container {
-        max-width: 990px;
-    }
-} 
