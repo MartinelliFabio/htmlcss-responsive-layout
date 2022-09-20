@@ -289,14 +289,12 @@ p {
 }
 
 .cols {
-    margin-right: -1.5rem;
     margin-bottom: -1.5rem;
     padding: 0 2rem;
 }
 
 .col {
     background-color: var(--white);
-    margin-right: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 1rem;
     padding: 2rem;
@@ -335,8 +333,9 @@ p {
 }
 
 .card-about {
-    padding: 4rem 2rem;
-    padding-top: 2rem;
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
     align-content: flex-start;
 }
 
@@ -474,6 +473,8 @@ footer {
         max-width: 950px;
     }
 
+    /* ! Header */
+
     .hamburger {
         display: none;
     }
@@ -482,6 +483,9 @@ footer {
         display: block;
     }
 
+    /* ! Main */
+
+    /* ! Sezione Intro */
     #intro .cards {
         display: flex;
         flex-flow: row wrap;
@@ -507,6 +511,90 @@ footer {
     .description-demo p {
         width: 100%;
     }
+
+    /* ! Sezione Plannins */
+    .container-plannings {
+        flex-flow: row;
+        align-items: flex-end;
+    }
+
+    .planning-1, .planning-2 {
+        width: 50%;
+        padding: 5rem 0;
+    }
+
+    .planning-1 {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .planning-2 {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    .img-planning-1 {
+        width: 25rem;
+    }
+
+    .img-planning-2 {
+        width: 15rem;
+    }
+
+    /* ! Sezione Testimonials */
+    .cards-testimonial {
+        text-align: start;
+    }
+
+    .card-testimonial {
+        flex-flow: row;
+    }
+
+    .card-testimonial p,h4 {
+        padding-left: 2rem;
+    }
+
+    /* ! Sezione Features */
+    .cols>div {
+        flex-flow: row;
+        margin-right: -1.5rem;
+    }
+    
+    .col {
+        width: calc(33.33% - 1.5rem);
+        margin-right: 1.5rem;
+    }
+
+    /* ! Sezione About Us */
+    #about-us>div {
+        flex-flow: row;
+        padding: 2rem;
+    }
+
+    .card-about {
+        width: 35%;
+    }
+
+    .caption-about-us{
+        width: 100%;
+    }
+
+    /* ! Sezione Get Started */
+    .description-started {
+        width: 50%;
+    }
+    
+    .btn-started {
+        width: 250px;
+    }
+
+    /* ! Sezione Footer */
+    .container-footer {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+
 }
 
 /* @media screen and (max-width: 480px) {
