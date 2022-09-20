@@ -24,6 +24,10 @@
     min-height: 50px;
 }
 
+html{ 
+    scroll-behavior: smooth;
+}
+
 /* ! CSS Globale */
 body {
     background-color: var(--white);
@@ -107,6 +111,10 @@ header {
 /* ! Main */
 #planning, #features, #get-started {
     background-color: var(--purple);
+}
+
+#intro, #planning, #testimonials, #features, #about-us, #get-started {
+    padding-top: 80px;
 }
 
 /* ! CSS sezione Intro */
