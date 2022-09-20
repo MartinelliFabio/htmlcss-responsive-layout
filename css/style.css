@@ -277,11 +277,120 @@ p {
 }
 
 /* ! CSS Sezione Features */
+#features {
+    padding-bottom: 4.5rem;
+}
+
 #features h2 {
     color: var(--white);
     text-align: center;
-    font-size: 2rem;
-    padding: 2rem 0;
+    font-size: 2.5rem;
+    padding: 3rem 0;
+}
+
+.cols {
+    margin-right: -1.5rem;
+    margin-bottom: -1.5rem;
+}
+
+.col {
+    width: calc(33.33% - 1.5rem);
+    background-color: var(--white);
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.col h3 {
+    color: var(--purple);
+    padding-bottom: 1rem;
+}
+
+.col p {
+    padding-bottom: 1.5rem;
+}
+
+.btn-more {
+    color: var(--white);
+    display: block;
+    background-color: var(--purple);
+    text-align: center;
+    width: 50%;
+    padding: 0.5rem 2rem;
+    border-radius: 1.2rem;
+}
+
+.title-number {
+    font-size: 4rem;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    color: var(--purple);
+}
+
+/* ! CSS Sezione About Us */
+.description-about {
+    width: 100%;
+    padding: 4rem 0 4rem 2.5rem; 
+}
+
+.card-about {
+    padding: 4rem 0;
+    align-content: flex-end;
+    padding-right: 2rem;
+    width: 50%;
+}
+
+.description-about h2 {
+    color: var(--purple);
+    font-size: 4rem;
+    padding-bottom: 2rem;
+}
+
+.description-about p:last-child {
+    padding-top: 3rem;
+}
+
+#img-about-us {
+    background-image: url('../img/about.jpg');
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6rem;
+    position: relative;
+}
+
+.quote-about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: var(--purple);
+    font-size: 4rem;
+}
+
+.caption-about-us {
+    font-size: 1.5rem;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    width: 60%;
+    line-height: 2rem;
+    color: var(--purple);
+    font-weight: bolder;
+}
+
+.btn-linkedin {
+    display: block;
+    background-color: var(--purple);
+    color: var(--white);
+    padding: 0.5rem 0.7rem;
+    border-radius: 2rem;
+    margin-right: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.fa-linkedin {
+    padding-right: 0.5rem;
 }
 
 
