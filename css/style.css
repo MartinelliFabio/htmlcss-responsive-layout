@@ -393,6 +393,55 @@ p {
     padding-right: 0.5rem;
 }
 
+/* ! CSS Sezione Get Started */
+#get-started {
+    text-align: center;
+    color: var(--white);
+}
+
+#get-started h3 {
+    color: var(--white);
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#get-started h2 {
+    color: var(--yellow);
+    font-size: 4.5rem;
+    padding-bottom: 1.4rem;
+}
+
+.container-get-started {
+    padding: 3rem 8rem;
+}
+
+.description-started {
+    padding-bottom: 1.5rem;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.btn-started {
+    width: 35%;
+    padding: 1.5rem 2rem;
+    border-radius: 2rem;
+    margin: 0 auto;
+    display: block;
+    background-color: var(--white);
+    color: var(--purple);
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.container-get-started p:last-child {
+    padding-top: 1.5rem;
+    font-size: 0.9rem;
+}
+
+.policy {
+    color: var(--white);
+    text-decoration: underline;
+}
 
 /* ! Footer */
 footer {
