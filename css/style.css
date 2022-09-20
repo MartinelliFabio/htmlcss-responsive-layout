@@ -468,13 +468,78 @@ footer {
 }
 
 /* ! RESPONSIVE */
+@media screen and (min-width:768px) {
+
+    .container {
+        max-width: 760px;
+    }
+
+    .hamburger {
+        font-size: 1.5rem;
+    }
+
+    #intro .cards {
+        display: flex;
+        flex-flow: row wrap;
+        margin-left: -0.75rem;
+        margin-right: -0.75rem;
+    }
+
+    #intro .card {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        width: calc(33.33% - 1.5rem);
+    }
+
+    #intro .card:first-child {
+        width: calc(66.66% - 1.5rem);
+    }
+
+    .planning-1, .planning-2 {
+        padding: 2rem 0;
+    }
+
+    .cards-testimonial {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cards-testimonial {
+        text-align: start;
+    }
+
+    .card-testimonial {
+        flex-flow: row;
+    }
+
+    .card-testimonial p,h4 {
+        padding-left: 2rem;
+    }
+
+    .cols {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .cols>div {
+        flex-flow: row wrap;
+        margin-right: -1.5rem;
+    }
+    
+    .col {
+        width: calc(50% - 1.5rem);
+        margin-right: 1.5rem;
+    }
+
+}
+
 @media screen and (min-width: 992px) {
+    
     .container {
         max-width: 950px;
     }
 
     /* ! Header */
-
     .hamburger {
         display: none;
     }
@@ -506,6 +571,7 @@ footer {
     #intro .first-card {
         flex-flow: row;
         align-items: flex-end;
+        margin-top: 1rem;
     }
 
     .description-demo p {
@@ -556,7 +622,7 @@ footer {
 
     /* ! Sezione Features */
     .cols>div {
-        flex-flow: row;
+        flex-flow: row wrap;
         margin-right: -1.5rem;
     }
     
@@ -597,47 +663,3 @@ footer {
 
 }
 
-/* @media screen and (max-width: 480px) {
-
-    .hamburger {
-        display: block;
-        font-size: 1.5rem;
-    }
-}
-
-@media screen and (min-width: 768px) {
-    .container {
-        max-width: 750px;
-    }
-
-    #intro .cards {
-        display: flex;
-        flex-flow: row wrap;
-        margin-left: -0.75rem;
-        margin-right: -0.75rem;
-    }
-
-    #intro .card {
-        margin-left: 0.75rem;
-        margin-right: 0.75rem;
-        width: calc(33.33% - 1.5rem);
-    }
-
-    #intro .card:first-child {
-        width: calc(66.66% - 1.5rem);
-    }
-}
-
-@media screen and (min-width: 992px) {
-    .container {
-        max-width: 990px;
-    }
-
-    .hamburger {
-        display: none;
-    }
-
-    .phone {
-        align-self: flex-end;
-    }
-}  */
