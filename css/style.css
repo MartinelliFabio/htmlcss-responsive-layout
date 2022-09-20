@@ -92,6 +92,10 @@ header {
     color: var(--white);
 }
 
+.hamburger {
+    font-size: 1.5rem;
+}
+
 #btn-started {
     display: block;
     background-color: var(--white);
@@ -328,7 +332,6 @@ p {
 
 /* ! CSS Sezione About Us */
 .description-about {
-    width: 100%;
     padding: 4rem 2rem;
 }
 
@@ -425,7 +428,7 @@ p {
 }
 
 .btn-started {
-    width: 75%;
+    width: 250px;
     margin: 0 auto;
     padding: 1.5rem 2rem;
     border-radius: 2rem;
@@ -474,10 +477,9 @@ footer {
         max-width: 760px;
     }
 
-    .hamburger {
-        font-size: 1.5rem;
-    }
+    /* ! Main */
 
+    /* ! Intro */
     #intro .cards {
         display: flex;
         flex-flow: row wrap;
@@ -495,10 +497,12 @@ footer {
         width: calc(66.66% - 1.5rem);
     }
 
+    /* ! Sezione Planning */
     .planning-1, .planning-2 {
         padding: 2rem 0;
     }
 
+    /* ! Sezione Testimonials */
     .cards-testimonial {
         padding-left: 0;
         padding-right: 0;
@@ -516,6 +520,7 @@ footer {
         padding-left: 2rem;
     }
 
+    /* ! Sezione Features */
     .cols {
         padding-left: 0;
         padding-right: 0;
@@ -531,6 +536,29 @@ footer {
         margin-right: 1.5rem;
     }
 
+    /* ! Sezione About Us */
+    #about-us>div {
+        flex-flow: row;
+    }
+
+    .card-about {
+        align-content: flex-end;
+    }
+
+    .caption-about-us {
+        width: 100%;
+    }
+
+    /* ! Sezione Get Started */
+    .description-started {
+        width: 70%;
+    }
+
+    /* ! Sezione Footer */
+    .container-footer {
+        width: 70%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -649,15 +677,11 @@ footer {
     .description-started {
         width: 50%;
     }
-    
-    .btn-started {
-        width: 250px;
-    }
 
     /* ! Sezione Footer */
     .container-footer {
         width: 50%;
-        margin: 0 auto;
+
     }
 
 
